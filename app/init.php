@@ -1,10 +1,9 @@
 <?php
 
-declare(strict_type=1);
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1); 
+declare(strict_types=1);
+ini_set('display_errors', 'true');
+ini_set('display_startup_errors', 'true'); 
 error_reporting(E_ALL);
-
 
 function config(string $key)
 {
